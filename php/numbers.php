@@ -6,3 +6,4 @@
         echo "YES";
     else
         echo "NO"; ?>
+# https://quera.org/problemset/280/
