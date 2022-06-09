@@ -9,4 +9,6 @@ switch($Cel){
         echo "Steam";
         break;
     case $Cel:
-        echo "Water";} ?>
+        echo "Water";}
+# https://quera.org/problemset/3429/
+?>
