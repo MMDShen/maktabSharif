@@ -1,3 +1,11 @@
-<?php 
-$k=3;
-echo ($k*($k+1)/2);/*توضیحی داره؟/ در پناه خدا*/ ?>
+<?php
+    $baseCharge=0;
+    $siblCharge=3;
+    $sumTime=0;
+
+    if($siblCharge>=1 && $siblCharge<=100){
+        while($baseCharge<$siblCharge){
+            $sumTime+=$baseCharge+1;
+            $baseCharge++;}
+        echo $sumTime; }
+?>
