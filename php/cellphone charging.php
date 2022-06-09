@@ -8,4 +8,6 @@
             $sumTime+=$baseCharge+1;
             $baseCharge++;}
         echo $sumTime; }
+
+# https://quera.org/problemset/17244/
 ?>
