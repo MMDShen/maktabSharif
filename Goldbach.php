@@ -36,7 +36,7 @@ function goldbach($a){
     $sum=[];
     for($i=1;$i<$a;$i++)
         
-        if(pri($i)==1){echo $i."  ";
+        if(pri($i)==1){//echo $i."  ";
             for($j=1;$j<$a;$j++)
                 if(pri($j)==1 && $i+$j==$a)
                     $sum[]="$i+$j";  }
