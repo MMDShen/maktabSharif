@@ -29,13 +29,11 @@
             <input id="address">
             </input>
           </div>  
-
           <div>
             <label for="zipcode">Zip Code<span>*</span></label>
-            <input id="zipcode" type="text" pattern="([0-9]{5}" required>
+            <input id="zipcode" type="text" pattern="[0-9]{5}" required>
             </input>
           </div>  
-
           <div>
             <label for="country" >Country<span>*</span></label>
                 <select style="width:120px"    required>
@@ -49,7 +47,6 @@
                     <option>Syria</option>
                 </select>
           </div>  
-
           <div>
             <label for="gender" >Gender<span>*</span></label>
             <input id="gender" type="radio" name="gen" value="male"    required>
@@ -57,8 +54,8 @@
             <input id="gender" type="radio" name="gen" value="male"    required>
             <label>Female</label>
           </div>  
-
           <div>
+              
             <label for="preferences" >Preferences<span>*</span></label>
             <input type="checkbox" name="color" value="red">
             <label style="display:inline-block; width: auto;">Red</label>
@@ -67,16 +64,14 @@
             <input type="checkbox" name="color" value="blue" >
             <label style="display:inline-block; width: auto;">Blue</label>
           </div>  
-
           <div>
             <label for="phone" >Phone<span>*</span></label>
             <input type="text" minlength="11" pattern="09[0-9]{9}" id="phone"  required>
             </input>
           </div>  
-
           <div>
             <label for="email">Email<span>*</span></label>
-            <input type="text" id="email" required>
+            <input type="email" id="email" pattern="^[a-z0-9._%+-]+@gmail\.com$" required>
             </input>
           </div>  
           
@@ -85,18 +80,14 @@
             <input type="password" minlength="6" maxlength="8" id="pass"  required>
             </input>
           </div>  
-
           <div>
             <label for="verify" >Verify password<span>*</span></label>
             <input type="password" minlength="6" maxlength="8" id="verify"   required>
             </input>
           </div>  
-
           <label></label> 
           <input type="submit" value="SEND" style="margin-right:5px">​
           <input type="reset" value="CLEAR">
         </form>
-
-
     </body>
 </html>
