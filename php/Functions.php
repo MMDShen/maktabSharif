@@ -21,7 +21,7 @@ function facto($number){
  //$d=6; if i wanna check if input is float or not i add it here  if(is_int($d)){TODO;}
  //facto($d);
 
-//TODO:PRIME
+//TODO:PRIME    
 function pri($number){
 
     //prevents making float & if number
@@ -30,12 +30,12 @@ function pri($number){
     $brw = (int)($number/2);
 
     //shouldnt be NULL
-    $ans="";
+    $ans=1;
 
     if($number==2)
-        echo "Prime";
+        $ans=1;
     if($number<2){
-        echo "Not Prime";
+        $ans=0;
     }
     if($number>2){
         //starts of 2 cus prevents of number/1=0
@@ -43,17 +43,18 @@ function pri($number){
 
             //if finds a Condition True ..
             if($number%$i==0){
-                $ans="Not Prime";
+                $ans=0;
                 break;}
         }
 
         //if "Not Prime" isnt in string then loop 
         //finished without a problem!
-        if($ans!="Not Prime")
-            $ans="Prime";
+        if($ans!=0)
+            $ans=1;
 
-        echo $ans;
+        
     }
+    return $ans;
 }
 
 // for debug
