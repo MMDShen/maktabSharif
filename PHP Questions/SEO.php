@@ -1,5 +1,6 @@
 <?php
-    /*جواب ناقصه*/
+    /* سوال سئو کوئرا
+جواب ناقصه*/
 
     function seoScore(string $html)
     {
