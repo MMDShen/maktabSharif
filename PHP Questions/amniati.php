@@ -1,5 +1,5 @@
 <?php
-
+// سوال مسئله اامنیتی کوئرا
 function isLowerCase($string){
   //$CAP="ABCDEFGHJKLMNOPQRSTUVIWXYZ";
   $county=0;
