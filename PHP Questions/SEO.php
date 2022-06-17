@@ -1,4 +1,5 @@
 <?php
+    /*جواب ناقصه*/
 
     function seoScore(string $html)
     {
