@@ -6,6 +6,6 @@ passed tests in Maktab Sharif coding bootcamp (with permission)
 
 // HW1 means HomeWork 1     cool
 
-// Exercise's branchs means in-class works
+// Exercise's branches means in-class out-class works
 
 //check Branches for HWs
