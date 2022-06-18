@@ -6,9 +6,13 @@
 }
 body {
     font-family: Vazir;
+    
+    /* <!-- my section --> */
     background: rgb(76,238,181);
     background: linear-gradient(149deg, rgba(76,238,181,1) 0%, rgba(45,44,114,1) 100%); 
+    /* <!-- my section --> */
 }
+
 .login-new__forms {
     position: relative;
     box-sizing: border-box;

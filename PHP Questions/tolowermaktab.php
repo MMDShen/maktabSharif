@@ -2,6 +2,9 @@
 
 //TODO:LOWERCASE
 function toLowerCase($string){
+
+    // kalama ro bar asase Capitals check mikine
+    // age chizi peyda kard moadelesh ba horufe kuchake ham shomarash dar string gharar mide
     $CAP="ABCDEFGHJKLMNOPQRSTUVIWXYZ";
     $cap="abcdefghjklmnopqrstuviwxyz";
 
@@ -16,5 +19,5 @@ function toLowerCase($string){
 
     return $string;
 }
-$string="God is A Great Feeling.";
+$string="Having Faith in God is A Great Feeling.";
     echo toLowerCase($string);

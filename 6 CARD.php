@@ -82,14 +82,22 @@
         </style>
     </head>
     <body>
+            <!-- its the fixed backgrond which is purple while have front round borders -->
             <div class="fixedbackground">
             </div>
 
+            <!-- cards are in it, its absolute -->
             <dive class="itemsbox">
                 <h4>LATEST CHALLENGES</h4>
                 <br>
+
+                <!-- its inline-block and have fixed widths and heights -->
                 <div class="item">
+
+                    <!-- "parts class divided each cards in two parts, its text-align is ltr"  -->
                     <div class="parts">
+
+                        <!-- are absolute to their relative ancestors -->
                         <div class="tags">
                             <p style="background-color:red"><span>*NEW</span></p>
                             <p style="background-color:lightblue;width:40px"><span style="color:blue">FREE</span></p>
@@ -98,20 +106,31 @@
                     
                     </div>
                     <div class="parts" style="background-color:white">
+                        
+                        <!-- its block level -->
                         <h3>title 1</h3>  
                         <br>
+
+                        <!-- the only flexes in this php -->
                         <div class="tagflex">
                             <p style="color:blue">HTML</p>
                             <p style="color:purple">CSS</p>
+
+                            <!-- //weak point of my code -->
                             <p style="float:right;margin-right:5px;border:2px blue solid;border-radius:4px;width:80px">
                                 <span style="color:white;background-color:blue;border-collapse:collapse;padding:4px;margin-right:10px">1</span>
                                 <span style="color:blue;margin-right:2px">NEWBIE</span>
                             </p>
+
                         </div>
+
+                        <!-- tozih -->
                         <p style="width:100%;text-align:left;margin-right:5px;margin-left:10px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quisquam dolorum veniam</p>
 
                     </div>
                 </div>
+
+                <!-- other cards same stories -->
                 <div class="item">
                     <div class="parts">
                         <div class="tags">
@@ -136,6 +155,7 @@
 
                     </div>
                 </div>
+
                 <div class="item">
                     <div class="parts">
                         <div class="tags">
@@ -160,7 +180,9 @@
 
                     </div>
                 </div>
+
                 <br>
+
                 <div class="item">
                     <div class="parts">
                         <div class="tags">
@@ -183,7 +205,9 @@
                         <p style="width:100%;text-align:left;margin-right:5px;margin-left:10px">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quisquam dolorum veniam</p>
 
                     </div>
-                </div>                <div class="item">
+                </div>
+
+                <div class="item">
                     <div class="parts">
                         <div class="tags">
                             <p style="background-color:lightblue;width:40px"><span style="color:blue">FREE</span></p>
@@ -206,6 +230,7 @@
 
                     </div>
                 </div>
+                
                 <div class="item">
                     <div class="parts">
                         <div class="tags">

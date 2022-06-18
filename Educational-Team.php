@@ -43,7 +43,10 @@
 
         </style>
     </head>
+    <!-- styled background -->
     <body style="background-color:wheat">
+
+    <!-- have shadow  -->
         <table>
             <tr>
                 <th class="lefty">
