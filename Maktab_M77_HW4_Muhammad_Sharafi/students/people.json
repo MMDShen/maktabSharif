@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "Mohammad Hosseini",
+        "age" : "14",
+        "school" : "dehkhoda"
+    },
+    {
+        "name" : "Masoud Ahmadi",
+        "age" : "15",
+        "school" : "sanati sharif"
+    },
+    {
+        "name" : "Ali Mirzaii",
+        "age" : "17",
+        "school" : "mir kabir"
+    },
+    {
+        "name" : "Hasan Akbar",
+        "age" : "19",
+        "school" : "Allame"
+    }
+]
